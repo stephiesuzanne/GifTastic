@@ -1,32 +1,25 @@
-/* @font-face {
-    font-family: 'orange_juiceregular';
-    src: url('orange_juice_2.0-webfont.woff2') format('woff2'),
-         url('orange_juice_2.0-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'minnieregular';
-    src: url('minnie-webfont.woff2') format('woff2'),
-         url('minnie-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-} */
 
 body{
-	background: url("../images/background-image.png") no-repeat center center fixed;
+	
     background-size: cover;
     font-family: 'Merienda';font-size: 22px;
+    background-image: url("https://images.unsplash.com/photo-1470074558764-4e577e98bc85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80");
+    background-color: #cccccc;
 
 }
 
 h1{
+    font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: red;
+    text-shadow: 3px 3px 0px blue,
 	font-family: font-family: 'Merienda';
 	font-size: 90px;
 	margin-top: 3vh;
-	margin-bottom: 1vh;
-}
+    margin-bottom: 1vh;
+    color: red;
+    
+} 
 
 .row{
 	margin-bottom: 4vh;
@@ -37,34 +30,32 @@ h1{
 .btn{
 	font-family: 'Merienda';
 	font-size: 16px;
-	background-color: #1c5677;
+	background-color: blue;
 	color: white;
-	padding: 1vh 1vw;
+	padding: 2vh vw;
 }
 
 .btn:hover{
-	color: #efad07;
+	color: red;
 }
 
 .btn:focus{
 	outline: 2px solid #efad07 !important;
-	background-color: #1680bc;
+	background-color: white;
 	color: #efad07;
 }
 
-.cartoon-button{
-	margin: .5vh 1vw;
+.parks-button{
+    margin: .5vh 1vw;
+    color: gold;
 }
 
-.dotted-border{
-	border: 6px dotted blue;
-}
 
 .cambria-font{
 	font-family: "cursive";
-	font-size: 18px;
 	font-weight: 800;
-	color: black;
+    color: red;
+    
 }
 
 .gif-image{
@@ -81,13 +72,13 @@ h1{
 	margin-top: 1.5vh;
 }
 
-#scottish-whisky{
+#us-states{
 	margin-top: 1.5vh;
 	width: 100%;
 }
 
-#scottish-whisky:focus{
-	outline: 2px solid #efad07 !important;
+#national-parks:focus{
+	outline: 2px solid gold !important;
 }
 
 #gif-container{
